@@ -1,7 +1,5 @@
 package com.learn.leetcode;
 
-import java.util.stream.Stream;
-
 /**
  * Given an integer x, return true if x is a palindrome, and false otherwise.
  * Example 1:
@@ -33,5 +31,31 @@ public class Palindrome {
         }
 
         return input.contentEquals(sb);
+    }
+
+    public static class HouseRobber {
+
+        public int rob(int[] nums) {
+            int size = nums.length;
+
+            if(size == 1)
+                return nums[0];
+
+            int sum1 = 0;
+            int sum2 = 0;
+            int sum3 = 0;
+
+            if (size > 2)
+                sum3 = nums[0] + nums[size-1];
+
+            for (int i = 0; i < nums.length; i++) {
+                if (i % 2 == 0)
+                    sum1 += nums[i];
+                else
+                    sum2 += nums[i];
+            }
+
+            return Math.max(sum1, Math.max(sum2, sum3));
+        }
     }
 }
