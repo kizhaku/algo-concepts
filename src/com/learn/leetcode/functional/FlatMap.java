@@ -2,10 +2,7 @@ package com.learn.leetcode.functional;
 
 import com.learn.leetcode.model.User;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.OptionalInt;
+import java.util.*;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
@@ -19,6 +16,7 @@ public class FlatMap {
         //flattenAndDistinctWords();
         //emailsFromUsersSorted();
         parseThenSum();
+        parseWithOptional();
     }
 
     static void flattenListofList() {
@@ -104,5 +102,24 @@ public class FlatMap {
                 .sum();
 
         System.out.println(sum);
+    }
+
+    static void parseWithOptional() {
+        List<String> raw = List.of("1","x","2","y","3");
+        int sum = raw.stream()
+                .map(FlatMap::tryParse)
+                .flatMap(Optional::stream)
+                .mapToInt(s -> s)
+                .sum();
+
+        System.out.println(sum);
+    }
+
+    static Optional<Integer> tryParse(String s) {
+        try {
+            return Optional.of(Integer.parseInt(s));
+        } catch (NumberFormatException ex) {
+            return Optional.empty();
+        }
     }
 }

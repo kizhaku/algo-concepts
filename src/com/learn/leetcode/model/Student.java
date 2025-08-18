@@ -23,4 +23,13 @@ public class Student {
     public String getCourse() {
         return course;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", id='" + id + '\'' +
+                ", course='" + course + '\'' +
+                '}';
+    }
 }
