@@ -1,13 +1,9 @@
 package com.learn.leetcode.dsa.stack;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-
 public class main {
 
     public static void main(String[] args) {
-        StackImpl<Integer> stackOfInts = new StackImpl<>();
+        CustomStack<Integer> stackOfInts = new StackImpl<>();
         stackOfInts.push(1);
         stackOfInts.push(2);
         stackOfInts.push(3);
@@ -19,9 +15,14 @@ public class main {
         System.out.println("Popping item: " +stackOfInts.pop());
         System.out.println("Stack size is: " +stackOfInts.size());
         printStack(stackOfInts);
+
+        System.out.println("Looping..");
+        for (Integer item : stackOfInts) {
+            System.out.println(item);
+        }
     }
 
-    static <T> void printStack(StackImpl<T> stack) {
+    static <T> void printStack(CustomStack<T> stack) {
         System.out.println("Printing stack..");
         stack.print();
     }

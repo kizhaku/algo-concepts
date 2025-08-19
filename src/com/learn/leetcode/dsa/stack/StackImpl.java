@@ -4,7 +4,7 @@ import java.util.EmptyStackException;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class StackImpl<T> implements Iterable<T> {
+public class StackImpl<T> implements CustomStack<T>, Iterable<T> {
 
     /**
      *  Requirements
