@@ -24,8 +24,7 @@ public class QueueImpl<T> implements CustomQueue<T> {
         if (size == 0) {
             head = new QueueNode<>(item, head);
             tail = head;
-        }
-        else {
+        } else {
             tail.setNext(new QueueNode<>(item, null));
             tail = tail.getNext();
         }
