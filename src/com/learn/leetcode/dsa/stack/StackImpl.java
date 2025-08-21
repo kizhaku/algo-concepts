@@ -27,11 +27,13 @@ public class StackImpl<T> implements CustomStack<T>, Iterable<T> {
      *  if size = 0; head.next = null
      *  else newNode.next = head; head = newNode
      */
+    @Override
     public void push(T item) {
         head = (size == 0) ? new StackNode<>(item) : new StackNode<>(item, head);
         size++;
     }
 
+    @Override
     public T pop() {
         if (isEmpty()) throw new EmptyStackException();
 
@@ -42,14 +44,19 @@ public class StackImpl<T> implements CustomStack<T>, Iterable<T> {
         return poppedItem;
     }
 
+    @Override
     public T peek() {
         if (isEmpty()) throw new EmptyStackException();
 
         return head.getItem();
     }
 
+    @Override
     public void print() {
-        if (isEmpty()) System.out.println("[]");;
+        if (isEmpty()) {
+            System.out.println("[]");
+            return;
+        }
 
         Iterator<T> itr = iterator();
         while (itr.hasNext()) {
@@ -57,10 +64,12 @@ public class StackImpl<T> implements CustomStack<T>, Iterable<T> {
         }
     }
 
+    @Override
     public int size() {
         return size;
     }
 
+    @Override
     public boolean isEmpty() {
         return size == 0;
     }
