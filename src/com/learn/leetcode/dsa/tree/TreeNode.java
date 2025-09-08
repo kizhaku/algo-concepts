@@ -5,11 +5,13 @@ public class TreeNode<T extends Integer> {
     T item;
     TreeNode<T> left;
     TreeNode<T> right;
+    TreeNode<T> parent;
 
-    public TreeNode(T item, TreeNode<T> left, TreeNode<T> right) {
+    public TreeNode(T item, TreeNode<T> left, TreeNode<T> right, TreeNode<T> parent) {
         this.item = item;
         this.left = left;
         this.right = right;
+        this.parent = parent;
     }
 
     public T getItem() {
@@ -30,5 +32,13 @@ public class TreeNode<T extends Integer> {
 
     public void setRight(TreeNode<T> right) {
         this.right = right;
+    }
+
+    public TreeNode<T> getParent() {
+        return parent;
+    }
+
+    public void setParent(TreeNode<T> parent) {
+        this.parent = parent;
     }
 }

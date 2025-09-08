@@ -1,4 +1,4 @@
-package com.learn.leetcode.linkedlist;
+package com.learn.leetcode.dsa.linkedlist;
 
 import com.learn.leetcode.model.Student;
 

@@ -1,6 +1,6 @@
 package test.linkedlist;
 
-import com.learn.leetcode.linkedlist.StudentLinkedList;
+import com.learn.leetcode.dsa.linkedlist.StudentLinkedList;
 import com.learn.leetcode.model.Student;
 
 import java.util.List;
