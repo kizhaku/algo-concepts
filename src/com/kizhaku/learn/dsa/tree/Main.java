@@ -13,7 +13,14 @@ public class Main {
         tree.add(5);
         tree.add(15);
 
+        System.out.println("Printing In order:");
         tree.print();
+
+        System.out.println("Printing Post order:");
+        tree.printPostOrder();
+
+        System.out.println("Printing Pre order:");
+        tree.printPreOrder();
 
         System.out.println(String.format("Is %s present in the tree: ", 5) +tree.find(5));
     }

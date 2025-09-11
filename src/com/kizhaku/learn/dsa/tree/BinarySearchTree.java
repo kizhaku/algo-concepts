@@ -50,6 +50,22 @@ public class BinarySearchTree {
         printInorder(root);
     }
 
+    public void printPostOrder() {
+        if (root == null)
+            throw new NoSuchElementException();
+
+        printPostOrder(root);
+        System.out.println(root.getItem());
+    }
+
+    public void printPreOrder() {
+        if (root == null)
+            throw new NoSuchElementException();
+
+        System.out.println(root.getItem());
+        printPreOrder(root);
+    }
+
     private boolean findRecursively(TreeNode currentNode, int item) {
         if (currentNode == null)
             return false;
@@ -69,6 +85,28 @@ public class BinarySearchTree {
             printInorder(currentNode.getLeft());
             System.out.println(currentNode.getItem());
             printInorder(currentNode.getRight());
+        }
+    }
+
+    private void printPostOrder(TreeNode currentNode) {
+        if (currentNode != null) {
+            printPostOrder(currentNode.getLeft());
+
+            if (currentNode != root)
+                System.out.println(currentNode.getItem());
+
+            printPostOrder(currentNode.getRight());
+        }
+    }
+
+    private void printPreOrder(TreeNode currentNode) {
+        if (currentNode != null) {
+            printPreOrder(currentNode.getLeft());
+
+            if (currentNode != root)
+                System.out.println(currentNode.getItem());
+
+            printPreOrder(currentNode.getRight());
         }
     }
 
