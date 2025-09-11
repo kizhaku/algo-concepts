@@ -1,6 +1,6 @@
 package test;
 
-import com.learn.leetcode.MissingNumber;
+import com.kizhaku.learn.problems.MissingNumber;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

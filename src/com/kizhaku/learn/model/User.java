@@ -1,4 +1,4 @@
-package com.learn.leetcode.model;
+package com.kizhaku.learn.model;
 
 import java.util.List;
 

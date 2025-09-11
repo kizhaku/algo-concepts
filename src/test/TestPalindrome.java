@@ -1,6 +1,6 @@
 package test;
 
-import com.learn.leetcode.Palindrome;
+import com.kizhaku.learn.problems.Palindrome;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

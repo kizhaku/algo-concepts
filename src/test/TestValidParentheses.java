@@ -1,6 +1,6 @@
 package test;
 
-import com.learn.leetcode.ValidParentheses;
+import com.kizhaku.learn.problems.ValidParentheses;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

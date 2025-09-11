@@ -1,44 +1,32 @@
-package com.learn.leetcode.dsa.tree;
+package com.kizhaku.learn.dsa.tree;
 
-public class TreeNode<T extends Integer> {
+public class TreeNode {
 
-    T item;
-    TreeNode<T> left;
-    TreeNode<T> right;
-    TreeNode<T> parent;
+    private final int item;
+    private TreeNode left;
+    private TreeNode right;
 
-    public TreeNode(T item, TreeNode<T> left, TreeNode<T> right, TreeNode<T> parent) {
+    public TreeNode(int item) {
         this.item = item;
-        this.left = left;
-        this.right = right;
-        this.parent = parent;
     }
 
-    public T getItem() {
+    public int getItem() {
         return item;
     }
 
-    public TreeNode<T> getLeft() {
+    public TreeNode getLeft() {
         return left;
     }
 
-    public TreeNode<T> getRight() {
+    public TreeNode getRight() {
         return right;
     }
 
-    public void setLeft(TreeNode<T> left) {
+    public void setLeft(TreeNode left) {
         this.left = left;
     }
 
-    public void setRight(TreeNode<T> right) {
+    public void setRight(TreeNode right) {
         this.right = right;
-    }
-
-    public TreeNode<T> getParent() {
-        return parent;
-    }
-
-    public void setParent(TreeNode<T> parent) {
-        this.parent = parent;
     }
 }

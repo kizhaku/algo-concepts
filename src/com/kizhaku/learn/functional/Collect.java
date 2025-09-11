@@ -1,4 +1,4 @@
-package com.learn.leetcode.functional;
+package com.kizhaku.learn.functional;
 
 import java.util.ArrayList;
 import java.util.HashMap;

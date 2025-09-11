@@ -1,4 +1,4 @@
-package com.learn.leetcode.functional;
+package com.kizhaku.learn.functional;
 
 import java.util.concurrent.Callable;
 import java.util.function.*;

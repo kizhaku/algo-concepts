@@ -1,4 +1,4 @@
-package com.learn.leetcode.scribble;
+package com.kizhaku.learn.scribble;
 
 class Parent {
     static void show() {

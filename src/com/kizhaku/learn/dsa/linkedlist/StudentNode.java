@@ -1,6 +1,6 @@
-package com.learn.leetcode.dsa.linkedlist;
+package com.kizhaku.learn.dsa.linkedlist;
 
-import com.learn.leetcode.model.Student;
+import com.kizhaku.learn.model.Student;
 
 class StudentNode {
 

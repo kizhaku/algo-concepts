@@ -1,4 +1,4 @@
-package com.learn.leetcode.dsa.stack;
+package com.kizhaku.learn.dsa.stack;
 
 import java.util.EmptyStackException;
 import java.util.Iterator;

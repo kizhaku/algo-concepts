@@ -1,4 +1,4 @@
-package com.learn.leetcode.dsa.queue;
+package com.kizhaku.learn.dsa.queue;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

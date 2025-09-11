@@ -1,4 +1,4 @@
-package com.learn.leetcode.dsa.stack;
+package com.kizhaku.learn.dsa.stack;
 
 public interface CustomStack<T> extends Iterable<T> {
     void push(T item);

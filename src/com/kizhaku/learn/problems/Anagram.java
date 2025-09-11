@@ -1,7 +1,6 @@
-package com.learn.leetcode;
+package com.kizhaku.learn.problems;
 
 import java.util.*;
-import java.util.stream.Stream;
 
 /**
  * Given two strings s and t, return true if t is an anagram of s, and false otherwise.

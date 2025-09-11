@@ -1,11 +1,9 @@
-package com.learn.leetcode.functional;
+package com.kizhaku.learn.functional;
 
-import com.learn.leetcode.model.User;
+import com.kizhaku.learn.model.User;
 
 import java.util.*;
-import java.util.function.Function;
 import java.util.function.Predicate;
-import java.util.stream.Stream;
 
 public class FlatMap {
 

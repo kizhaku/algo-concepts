@@ -1,11 +1,9 @@
-package com.learn.leetcode;
+package com.kizhaku.learn.problems;
 
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
-import java.util.function.Predicate;
-import java.util.stream.Stream;
 
 /**
  * Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.

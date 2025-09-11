@@ -1,9 +1,8 @@
-package com.learn.leetcode;
+package com.kizhaku.learn.problems;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Map;
-import java.util.stream.Stream;
 
 /**
  * Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.

@@ -1,4 +1,4 @@
-package com.learn.leetcode.dsa.queue;
+package com.kizhaku.learn.dsa.queue;
 
 public class Main {
 

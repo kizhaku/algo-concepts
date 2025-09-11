@@ -1,6 +1,6 @@
 package test;
 
-import com.learn.leetcode.BuySellStock;
+import com.kizhaku.learn.problems.BuySellStock;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

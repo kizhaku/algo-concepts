@@ -1,11 +1,7 @@
 package test;
 
-import com.learn.leetcode.Palindrome;
-import com.learn.leetcode.RemDuplicates;
-import org.junit.jupiter.api.BeforeEach;
+import com.kizhaku.learn.problems.RemDuplicates;
 import org.junit.jupiter.api.Test;
-
-import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

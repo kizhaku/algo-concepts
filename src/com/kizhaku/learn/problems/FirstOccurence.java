@@ -1,6 +1,4 @@
-package com.learn.leetcode;
-
-import java.util.stream.Stream;
+package com.kizhaku.learn.problems;
 
 public class FirstOccurence {
 

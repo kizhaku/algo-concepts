@@ -1,4 +1,4 @@
-package com.learn.leetcode.scribble;
+package com.kizhaku.learn.scribble;
 
 public interface AFuncInterface {
     void display();

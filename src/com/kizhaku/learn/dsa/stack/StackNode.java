@@ -1,4 +1,4 @@
-package com.learn.leetcode.dsa.stack;
+package com.kizhaku.learn.dsa.stack;
 
 public class StackNode<T> {
 

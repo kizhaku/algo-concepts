@@ -1,6 +1,6 @@
 package test;
 
-import com.learn.leetcode.Anagram;
+import com.kizhaku.learn.problems.Anagram;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

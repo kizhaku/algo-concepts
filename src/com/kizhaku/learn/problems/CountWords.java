@@ -1,4 +1,4 @@
-package com.learn.leetcode;
+package com.kizhaku.learn.problems;
 
 public class CountWords {
 

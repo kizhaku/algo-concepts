@@ -1,6 +1,4 @@
-package com.learn.leetcode;
-
-import java.util.*;
+package com.kizhaku.learn.problems;
 
 public class TwoSum {
 

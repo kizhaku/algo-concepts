@@ -1,4 +1,4 @@
-package com.learn.leetcode.builder;
+package com.kizhaku.learn.builder;
 
 public class User {
 

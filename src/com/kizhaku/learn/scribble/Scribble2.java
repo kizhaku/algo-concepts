@@ -1,16 +1,13 @@
-package com.learn.leetcode.scribble;
+package com.kizhaku.learn.scribble;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.Files;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
-import java.util.function.BiFunction;
 
 public class Scribble2 {
 
@@ -176,6 +173,8 @@ public class Scribble2 {
 
 
         } while (!scanner.nextLine().equalsIgnoreCase("exit"));
+
+
 
     }
 }

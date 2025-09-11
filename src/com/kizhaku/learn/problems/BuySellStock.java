@@ -1,4 +1,4 @@
-package com.learn.leetcode;
+package com.kizhaku.learn.problems;
 
 /**
  * You are given an array prices where prices[i] is the price of a given stock on the ith day.

@@ -1,7 +1,6 @@
 package test;
 
-import com.learn.leetcode.SingleNumber;
-import org.junit.jupiter.api.Test;
+import com.kizhaku.learn.problems.SingleNumber;
 
 public class TestSingleNumber {
 

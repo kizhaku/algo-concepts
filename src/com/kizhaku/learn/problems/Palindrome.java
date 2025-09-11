@@ -1,4 +1,4 @@
-package com.learn.leetcode;
+package com.kizhaku.learn.problems;
 
 /**
  * Given an integer x, return true if x is a palindrome, and false otherwise.

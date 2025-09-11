@@ -1,9 +1,9 @@
-package com.learn.leetcode;
+package com.kizhaku.learn.problems;
 
 public class ListNode {
     int val;
     ListNode next;
     ListNode() {}
     ListNode(int val) { this.val = val; }
-    ListNode(int val, com.learn.leetcode.ListNode next) { this.val = val; this.next = next; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }

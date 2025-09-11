@@ -1,4 +1,4 @@
-package com.learn.leetcode.functional;
+package com.kizhaku.learn.functional;
 
 import java.util.AbstractMap;
 import java.util.List;

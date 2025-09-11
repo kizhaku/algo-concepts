@@ -1,6 +1,6 @@
-package com.learn.leetcode.dsa;
+package com.kizhaku.learn.dsa;
 
-import com.learn.leetcode.model.Student;
+import com.kizhaku.learn.model.Student;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;

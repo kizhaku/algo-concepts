@@ -1,4 +1,4 @@
-package com.learn.leetcode.scribble;
+package com.kizhaku.learn.scribble;
 
 @FunctionalInterface
 public interface InterfaceScribble {

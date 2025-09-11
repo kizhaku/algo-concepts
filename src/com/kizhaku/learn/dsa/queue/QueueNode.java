@@ -1,6 +1,4 @@
-package com.learn.leetcode.dsa.queue;
-
-import java.util.Queue;
+package com.kizhaku.learn.dsa.queue;
 
 public class QueueNode<T> {
     private final T item;

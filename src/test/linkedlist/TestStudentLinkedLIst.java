@@ -1,7 +1,7 @@
 package test.linkedlist;
 
-import com.learn.leetcode.dsa.linkedlist.StudentLinkedList;
-import com.learn.leetcode.model.Student;
+import com.kizhaku.learn.dsa.linkedlist.StudentLinkedList;
+import com.kizhaku.learn.model.Student;
 
 import java.util.List;
 

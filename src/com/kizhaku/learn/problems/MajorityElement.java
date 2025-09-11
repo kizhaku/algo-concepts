@@ -1,8 +1,7 @@
-package com.learn.leetcode;
+package com.kizhaku.learn.problems;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Stream;
 
 /**
  * Given an array nums of size n, return the majority element.

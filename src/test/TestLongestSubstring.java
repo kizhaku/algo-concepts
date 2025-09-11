@@ -1,6 +1,6 @@
 package test;
 
-import com.learn.leetcode.LongestSubstring;
+import com.kizhaku.learn.problems.LongestSubstring;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
